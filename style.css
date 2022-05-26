@@ -1,0 +1,493 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}*/
+
+
+/* HTML5 display-role reset for older browsers */
+
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+
+/*
+  ========================================
+  Layout
+  ========================================
+*/
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*header,
+.primary-content,
+.secondary-content,
+.content {
+    border: 1px solid black;
+}*/
+
+.primary-content {
+    float: left;
+    width: 50%;
+
+}
+
+.secondary-content {
+    float: right;
+    width: 50%;
+}
+
+/*.secondary-content {
+    position: relative;
+}*/
+
+.top-main,
+.top-mainCanada,
+.bottom-main,
+.bottom-main-right {
+    /*border: 1px solid red;*/
+    width: 122px;
+    height: 70%;
+}
+
+/*.top-main {
+    position: absolute;
+    left: 200px;
+}
+
+
+.bottom-main-right {
+    position: absolute;
+    bottom: 0;
+    right: 270px;
+
+}*/
+
+h2 {
+    clear: both;
+}
+
+.content {
+    float: left;
+    width: 33.33%;
+}
+
+
+
+.top,
+.bottom {
+    clear: both;
+}
+
+
+.top-main,
+.top-mainCanada {
+    float: left;
+    width: 244px;
+}
+
+
+
+.bottom-main,
+.bottom-main-right {
+    float: left;
+    width: 244px;
+}
+
+.add-space {
+    clear: both;
+    height: 20px;
+}
+
+
+
+/*
+  ========================================
+  Nav
+  ========================================
+*/
+
+header {
+    background-color: black;
+    color: #fff;
+}
+
+nav {
+    position: relative;
+}
+
+li {
+    display: inline;
+    margin-right: 3px;
+    padding: 11px;
+    border-right: 2px solid #fff;
+    text-align: center;
+}
+
+li a {
+
+    text-decoration: none;
+    color: #fff;
+}
+
+li a:hover {
+    color: #fff;
+}
+
+ul {
+    position: absolute;
+    top: -12px;
+    right: 0;
+    left: 115px;
+}
+
+.logo {
+    width: 12%;
+    border-right: 2px solid #fff;
+    padding-right: 20px;
+    position: relative;
+    top: 1px;
+    left: 10px;
+}
+
+.no-border {
+    border-right: 2px solid black;
+}
+
+.loginsign {
+    position: relative;
+    top: 4px;
+    width: 2%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 14.7px;
+}
+
+.form {
+    border: transparent;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+span {
+    text-transform: uppercase;
+    border-left: 2px solid red;
+    padding-left: 4px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+/*
+  ========================================
+  first-section
+  ========================================
+*/
+section > h1 {
+    font-size: 1.1rem;
+    color: #565656;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.date {
+    clear: both;
+    color: gray;
+    text-transform: capitalize;
+    font-size: 24px;
+    border: transparent;
+    position: relative;
+    text-align: right;
+    position: relative;
+    bottom: 30px;
+    right: 15px;
+    margin-bottom: -5px;
+}
+
+/* .first-article,
+ .top-main, 
+ .top-mainCanada, 
+ .bottom-main,
+ .bottom-main-right {
+    background-color: yellow;
+    color: white;
+ }*/
+
+/*.first-article {
+    background-color: red;
+    background-image: url("Img\pic1.jpg");
+    color: white;
+ }*/
+
+.decoration-image {
+    width: 95%;
+    filter: brightness(75%);
+    margin-left: 10px;
+}
+
+.first-article {
+    position: relative;
+}
+
+.first-article h3 {
+    position: absolute;
+    left: 20px;
+    top: 190px;
+    z-index: 1;
+    color: #fff;
+    font-size: 24px;
+}
+
+.first-article span,
+.first-article p {
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+    width: 410px;
+}
+
+.first-article p {
+    font-size: 14px;
+    bottom: 30px;
+}
+
+.secondary-content h3,
+.secondary-content span {
+    font-size: 15px;
+}
+
+
+.top-main h3,
+.top-mainCanada h3,
+.bottom-main h3,
+.bottom-main-right h3,
+.top-main span,
+.top-mainCanada span,
+.bottom-main span,
+.bottom-main-right span{
+    width: 200px;
+    /*color: #fff;*/
+    font-weight: 300;
+}
+
+
+.top-main img,
+.top-mainCanada img,
+.bottom-main img,
+.bottom-main-right img {
+    filter: brightness(70%);
+    position: relative;
+    width: 109%;
+}
+
+.top-main h3,
+.top-mainCanada h3,
+.bottom-main h3,
+.bottom-main-right h3 {
+    position: absolute;
+    z-index: 1;
+}
+
+
+.top-main span,
+.top-mainCanada span,
+.bottom-main span,
+.bottom-main-right span {
+    position: relative;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.top-main span {
+ bottom: 30px;
+ color: #fff;
+ margin-left: 40px;
+
+}
+
+.top-mainCanada span {
+    bottom: 30px;
+    color: #fff;
+    margin-left: 90px;
+    
+}
+
+.bottom-main span {
+    bottom: 30px;
+    color: #fff;
+    margin-left: 40px;
+    
+}
+
+.bottom-main-right span {
+    bottom: 30px;
+    color: #fff;
+    margin-left: 90px;
+    
+}
+
+.top-main h3 {
+    bottom:480px;
+    color: #fff;
+    margin-left: 40px;
+    
+}
+
+.top-mainCanada h3 {
+    bottom:480px;
+    color:#fff;
+    margin-left: 90px;
+    
+
+}
+
+.bottom-main h3{
+    bottom:310px;
+    color: #fff;
+    margin-left: 40px;
+
+}
+
+.bottom-main-right h3{ 
+    bottom:310px;
+    color: #fff;
+    margin-left: 90px;
+}
+
+
+
+
+.top-main img {
+    margin-left: 30px;
+}
+.top-mainCanada img {
+    margin-left: 80px;
+}
+
+.bottom-main img {
+    margin-left: 30px;
+}
+
+.bottom-main-right img{
+    margin-left: 80px;
+}
+
+
+
+/*
+  ========================================
+  second-section
+  ========================================
+*/
+h2 {
+    font-size: 24px;
+    color: #565656;
+    padding-left: 4px;
+    border-left: 5px solid red;
+    margin-bottom: 10px;
+    margin-left: 10px;
+   
+}
+
+.content p {
+    width: 345px;
+    margin-left: 10px;
+}
+
+.content h3 {
+    width: 350px;
+    margin-left: 10px;
+}
+
+.content span {
+    margin-left: 10px;
+
+}
+
+span.last-section {
+    margin-top: 30px;
+}
+
+.last-section {
+    margin-top: 37px;
+}
+
+/*
+  ========================================
+  Img
+  ========================================
+*/
+
+img {
+    width: 80%;
+}
+
+
+
+
+/*
+  ========================================
+  
+  ========================================
+*/
