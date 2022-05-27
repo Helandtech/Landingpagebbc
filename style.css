@@ -78,6 +78,32 @@ table {
     border: 1px solid black;
 }*/
 
+/*
+  ========================================
+  Layout
+  ========================================
+*/
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*header,
+.primary-content,
+.secondary-content,
+.content {
+    border: 1px solid black;
+}*/
+
 .primary-content {
     float: left;
     width: 50%;
@@ -350,6 +376,8 @@ section > h1 {
 }
 
 
+
+/* add element*/
 .top-main span,
 .top-mainCanada span,
 .bottom-main span,
@@ -362,60 +390,60 @@ section > h1 {
 .top-main span {
  bottom: 30px;
  color: #fff;
- margin-left: 40px;
+ margin-left: 20px;
 
 }
 
 .top-mainCanada span {
     bottom: 30px;
     color: #fff;
-    margin-left: 90px;
+    margin-left: 20px;
     
 }
 
 .bottom-main span {
     bottom: 30px;
     color: #fff;
-    margin-left: 40px;
+    margin-left: 20px;
     
 }
 
 .bottom-main-right span {
     bottom: 30px;
     color: #fff;
-    margin-left: 90px;
+    margin-left: 20px;
     
 }
 
 .top-main h3 {
-    bottom:480px;
+    bottom:470px;
     color: #fff;
-    margin-left: 40px;
+    margin-left: 20px;
     
 }
 
 .top-mainCanada h3 {
-    bottom:480px;
+    bottom:470px;
     color:#fff;
-    margin-left: 90px;
+    margin-left: 20px;
     
 
 }
 
 .bottom-main h3{
-    bottom:310px;
+    bottom:300px;
     color: #fff;
-    margin-left: 40px;
+    margin-left: 20px;
 
 }
 
 .bottom-main-right h3{ 
-    bottom:310px;
+    bottom:300px;
     color: #fff;
-    margin-left: 90px;
+    margin-left: 20px;
 }
 
-
+/* add element*/
 
 
 .top-main img {
@@ -433,6 +461,12 @@ section > h1 {
     margin-left: 80px;
 }
 
+.top-main img ,
+.top-mainCanada img ,
+.bottom-main img ,
+.bottom-main-right img {
+    position: relative;
+}
 
 
 /*
@@ -491,3 +525,94 @@ img {
   
   ========================================
 */
+
+
+
+
+
+/*ADDED STAFF*/
+.primary-content {
+    float: left;
+    width: 50%;
+
+}
+
+.secondary-content {
+    float: right;
+    width: 50%;
+}
+
+div.recent-addiction {
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+    /*border: 1px solid red;*/
+}
+
+
+
+h2 {
+    clear: both;
+}
+
+.content {
+    float: left;
+    width: 33.33%;
+}
+
+
+.add-space {
+    clear: both;
+    height: 20px;
+}
+
+
+/*.secondary-content,
+.content {
+    /*border: 1px solid black;
+}
+
+.secondary-content section {
+    /*border: 1px solid black;
+}
+*/
+
+img {
+    width: 60%;
+}
+
+
+div.top,
+div.bottom {
+    /*border: 1px solid black;*/
+    height: 10%;
+    width: 100%;
+    clear: both;
+}
+
+section.top-main,
+section.top-mainCanada,
+section.bottom-main,
+section.bottom-main-right {
+    /*border: 1px solid black;*/
+    width: 50%;
+    height: 20%;
+    float: left;
+
+
+
+}
+
+section.top-main >img.decoration-img,
+section.top-mainCanada >img.decoration-img,
+section.bottom-main >img.decoration-img,
+section.bottom-main-right >img.decoration-img {
+    width: 89%;
+    margin-right :auto;
+    margin-left: auto;
+}
+
+
+/*ADD STAFFF*/
+
+
